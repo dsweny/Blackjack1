@@ -1,5 +1,8 @@
 package cs2114.blackjack;
 
+import java.util.*;
+
+
 // -------------------------------------------------------------------------
 /**
  * BlackjackGame class for playing through the blackjack app Provides the
@@ -13,6 +16,7 @@ package cs2114.blackjack;
 
 public class BlackjackGame
 {
+    ArrayList<Card> deck;
 
     // ----------------------------------------------------------
     /**
@@ -30,18 +34,7 @@ public class BlackjackGame
      */
     public void deal()
     {
-        // TODO Auto-generated method stub
 
-    }
-
-
-    // ----------------------------------------------------------
-    /**
-     * Method for shuffling the deck of cards
-     */
-    public void shuffle()
-    {
-        // TODO Auto-generated method stub
 
     }
 
